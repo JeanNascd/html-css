@@ -1,6 +1,6 @@
 @charset "UTF-8";
 	/*
-	em HTML é ID = em CSS é #
+	em HTML é ID = em CSS é # (só pode um elemento por documento HTML)
 	em HTML é class = em CSS é .
 	*/
 
@@ -21,4 +21,19 @@ h1#principal {
 
 h2 {
 	color: rgb(1, 69, 1);
+}
+.basico {
+ color:#4FA5E3
+}
+
+.Intermerdiario {
+ color: #B74FE3;
+}
+
+.avancado {
+	color: #574FE3;
+}
+
+.destaque {
+	background-color: rgba(255, 255, 0, 0.426);
 }
